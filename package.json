@@ -1,0 +1,32 @@
+{
+  "name": "zing-farming",
+  "version": "1.0.0",
+  "description": "Zing token farming",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx buidler test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zing-finance/zing-farming.git"
+  },
+  "keywords": [
+    "yield",
+    "farming",
+    "defi"
+  ],
+  "author": "chainvisions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zing-finance/zing-farming/issues"
+  },
+  "homepage": "https://github.com/zing-finance/zing-farming#readme",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.4.7",
+    "@nomiclabs/buidler-ethers": "^2.0.0",
+    "@nomiclabs/buidler-waffle": "^2.1.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.1.1",
+    "ethers": "^5.0.14"
+  }
+}
